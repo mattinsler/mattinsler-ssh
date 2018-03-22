@@ -1,0 +1,25 @@
+{
+  "name": "@mattinsler/ssh",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "ts-pub build"
+  },
+  "keywords": [],
+  "author": "Matt Insler",
+  "repository": "mattinsler/mattinsler-ssh",
+  "devDependencies": {
+    "@types/node": "9.4.7",
+    "@types/ssh2": "0.5.35",
+    "ts-node": "5.0.1",
+    "ts-pub": "0.0.5",
+    "typescript": "2.8.0-dev.20180320"
+  },
+  "dependencies": {
+    "buffer-equal-constant-time": "1.0.1",
+    "ssh2": "0.6.0"
+  }
+}
